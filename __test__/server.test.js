@@ -58,8 +58,8 @@ expect(typeof response.body).toEqual('object')
 
 })
 
-it('it can get method  ',async()=>{
-const response= await request.get('/food/1')
+it('it can get method get ',async()=>{
+const response= await request.get('/food/2')
 expect(  response.status).toEqual(200)
 expect(typeof response.body).toEqual('object')
 
